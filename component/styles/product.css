@@ -1,0 +1,117 @@
+*{font-family: serif;
+    margin: 0;}
+
+header{ z-index: -1;
+    width: 90rem;
+   display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-items: left;
+    position: fixed;
+    background-color: white;
+}
+
+header>div>h1{
+    font-size: 60px;
+}
+
+header>div{
+    width: 50%;
+}
+
+nav{
+    width: 100%;
+}
+nav>ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sidebar{
+    width: 20%;
+    height: 87vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 5rem;
+}
+.workspace{z-index: -20;
+    width: 80%;
+    height: 170vh;
+    position: relative;
+    left: 10%;
+    top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#gold_image>img{
+    width: 100%;  
+}
+
+.button{
+    width: 100%;
+    color: white; 
+    height: 90%;
+    text-align: center;
+    border: solid white thin;   
+    border-left: none;
+}
+
+
+.nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    
+    
+}
+
+main{
+    width: 100%;
+}
+
+.items{
+    height: 10%;
+    width: 20%;
+    border: solid black;
+    justify-self: center;
+    align-self: center;
+    width: 94%;
+    height: 94%;
+    background-size: cover;
+}
+
+.lable{
+    width: 100%;
+    height: 45%;
+    position: relative;
+    top: 55%;
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: 400ms;
+} 
+
+.button>h2>a{
+    color: white;
+}
